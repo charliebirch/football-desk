@@ -6,7 +6,7 @@ by what he keeps.
 
 | Path | Holds |
 | --- | --- |
-| `satire/` | Headline batches, the house voice, what's been posted |
+| `satire/` | Whodle: headline batches, the house voice, what's been posted, `logos/` |
 | `quiz/` | Quiz batches with answers and sources, what's been used |
 
 ## Rules

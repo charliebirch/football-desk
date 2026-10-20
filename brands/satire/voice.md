@@ -7,7 +7,8 @@ updated: 2026-10-20
 
 # Satire house voice
 
-_Name not chosen yet._ Model: The Betoota Advocate and The Daily Mash, applied to English
+Brand: **Whodle** (whodle.io, hello@whodle.io). Profile picture and palette in `logos/`.
+Model: The Betoota Advocate and The Daily Mash, applied to English
 football. Deadpan news register, absurd premise, true-to-life detail.
 
 ## What works

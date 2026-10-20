@@ -20,9 +20,12 @@ ideas tab was the seed.
 - Write three pieces unaided so `foundation/style-guide.md` can describe Charlie's real voice.
 - Choose writers for the first craft profiles (`study-writer`). Shortlist in
   `foundation/writers/README.md`.
-- Brand and domain: journalism under Charlie's own name; Whodle stays the games arm. Domain
-  and dedicated email not set up yet.
-- Satire brand: name not chosen.
+- Brand and domain: journalism under Charlie's own name; pitches go from his personal email
+  until he buys a domain in his name. Whodle is the satire account (see decisions).
+  hello@whodle.io forwards to his Gmail via Cloudflare Email Routing (free; no Google
+  Workspace). X account being set up as Whodle; Bluesky, Instagram, TikTok to follow.
+- Whodle game: Charlie plans to retire it and reuse its games in the newsletter. Not done
+  yet; the repo stays archived, not deleted. Whether quizzes also run under Whodle is open.
 - Podcast scanning (Football Ramble, Tifo, Business of Sport, On the Continent): deliberately
   deferred until the scaffold has been used for a few pieces.
 
@@ -32,6 +35,8 @@ Newest first. Each says why, so it isn't re-argued by accident.
 
 | Date | Decision | Why |
 | --- | --- | --- |
+| 2026-10-20 | Whodle profile picture: `d-newsprint` (options in `brands/satire/logos/`) | Charlie's pick; leans into the fake-news-outlet idea. `b-centre-circle` is the alternative if it underperforms at feed size |
+| 2026-10-20 | The satire account is Whodle, on whodle.io | Charlie owns the domain and the name; the game had a small audience (about 285 finished games when last measured) and no email list, so retiring it costs little. Keeps satire well away from his byline |
 | 2026-10-20 | Angle: English football and the PL seen from Australia, plus FPL. A-League is phase 2 | Charlie writes best about what he cares about; the far-away seat is the distinctive part, not the topic |
 | 2026-10-20 | Journalism under Charlie's name; Whodle as the games arm, not the masthead | Editors commission people. Whodle's codebase is a game with deliberate constraints (no build step, host-only cookie identity) and shouldn't carry articles |
 | 2026-10-20 | Charlie drafts anything under his byline; AI researches, edits, checks | Editors now screen pitches for AI; Substack readers can scan posts for AI share; one fabricated fact ends a freelance career |
