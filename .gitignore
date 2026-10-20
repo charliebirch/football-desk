@@ -1,0 +1,9 @@
+# Copyrighted books and raw data pulls never leave the machine. Don't loosen this.
+library/books/
+data/raw/
+
+# Personal, uncommitted instructions
+CLAUDE.local.md
+.claude/settings.local.json
+
+.DS_Store
