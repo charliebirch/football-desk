@@ -12,6 +12,7 @@ only the notes.
 | Writing Tools | Roy Peter Clark | Short, practical techniques, one per chapter; good drill material |
 | Essential English for Journalists, Editors and Writers | Harold Evans | Newspaper sentence craft, from a great British editor |
 | McIlvanney on Football | Hugh McIlvanney | The benchmark for British football prose; read as a taste source |
+| How to Write Funny | Scott Dikkers | The Onion's founding editor on comedy writing; for Whodle |
 
 ## Football: subject and stories
 

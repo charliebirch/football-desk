@@ -20,8 +20,8 @@ ideas tab was the seed.
 
 - Foundation step 1: Charlie collects 10-15 pieces he loves (and a few he dislikes) for `taste`.
 - Craft books: get the four in `library/reading-list.md` (craft section) into `library/books/`.
-- Satire foundation: research what makes The Onion and The Betoota Advocate work and codify it
-  in `brands/satire/craft.md` before the first batch.
+- Satire: craft guide done (`brands/satire/craft.md`, researched 20 Oct). Next: first batch,
+  then Charlie's picks start the calibration set in `voice.md`.
 - Brand and domain: journalism under Charlie's own name; pitches go from his personal email
   until he buys a domain in his name. Whodle is the satire account (see decisions).
   hello@whodle.io forwards to his Gmail via Cloudflare Email Routing (free; no Google
@@ -37,6 +37,7 @@ Newest first. Each says why, so it isn't re-argued by accident.
 
 | Date | Decision | Why |
 | --- | --- | --- |
+| 2026-10-20 | Whodle satire follows `brands/satire/craft.md`: copy the newspaper form, keep everything true but one thing, headline-first with high volume, six tagged joke engines, punch up | Codified from how The Onion and The Betoota Advocate describe their own craft (sources in the file), so batches get better by engine rather than by luck |
 | 2026-10-20 | Foundations first: no story until the style guide is v1, built from taste, craft and practice, not from three unaided pieces | Charlie is new to writing and wants the foundations in place before iterating on a piece. Enforced in the write hook so it can't drift |
 | 2026-10-20 | Whodle profile picture: `d-newsprint` (options in `brands/satire/logos/`) | Charlie's pick; leans into the fake-news-outlet idea. `b-centre-circle` is the alternative if it underperforms at feed size |
 | 2026-10-20 | The satire account is Whodle, on whodle.io | Charlie owns the domain and the name; the game had a small audience (about 285 finished games when last measured) and no email list, so retiring it costs little. Keeps satire well away from his byline |
