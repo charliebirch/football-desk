@@ -125,3 +125,20 @@ export function daysSince(date, today = new Date()) {
   if (!DATE.test(date || '')) return null;
   return Math.floor((today - new Date(`${date}T00:00:00`)) / 86400000);
 }
+
+// Foundations first: stories unlock once the style guide reaches v1 (or a later version).
+export function foundationDone(root) {
+  return /^v\d+/.test(String(readFm(join(root, 'foundation', 'style-guide.md'))?.status || ''));
+}
+
+export function foundationProgress(root) {
+  const count = (dir, skip = ['README.md']) => existsSync(join(root, dir))
+    ? readdirSync(join(root, dir)).filter(f => f.endsWith('.md') && !skip.includes(f) && !f.startsWith('_')).length : 0;
+  const craftRows = existsSync(join(root, 'foundation', 'craft.md'))
+    ? (readFileSync(join(root, 'foundation', 'craft.md'), 'utf8').match(/^\|(?!\s*-{3}|\s*Technique\s*\|).+\|\s*$/gm) || []).length : 0;
+  return {
+    taste: count('foundation/taste'), writers: count('foundation/writers'), craft: craftRows,
+    practice: count('foundation/practice'), samples: count('foundation/voice-samples'),
+    guide: readFm(join(root, 'foundation', 'style-guide.md'))?.status || 'missing',
+  };
+}

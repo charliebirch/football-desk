@@ -7,8 +7,9 @@ Last updated **2026-10-20**.
 
 ## State
 
-Scaffold built 20 October 2026. No pieces published yet. Foundation files are templates
-waiting for Charlie's three unaided pieces (see `foundation/CLAUDE.md`, step 1).
+Scaffold built 20 October 2026; on GitHub at charliebirch/football-desk. **In the foundation
+stage**: Charlie is new to writing, so taste, teachers, craft and practice come before any
+story (see `foundation/CLAUDE.md`). Stories are locked until the style guide reaches v1.
 
 Strategy and research: the playbook doc,
 https://claude.ai/code/artifact/05bd47a0-3c1d-4781-9726-ab03ceb4ff6d (tabs: playbook, Story
@@ -17,9 +18,10 @@ ideas tab was the seed.
 
 ## Open threads
 
-- Write three pieces unaided so `foundation/style-guide.md` can describe Charlie's real voice.
-- Choose writers for the first craft profiles (`study-writer`). Shortlist in
-  `foundation/writers/README.md`.
+- Foundation step 1: Charlie collects 10-15 pieces he loves (and a few he dislikes) for `taste`.
+- Craft books: get the four in `library/reading-list.md` (craft section) into `library/books/`.
+- Satire foundation: research what makes The Onion and The Betoota Advocate work and codify it
+  in `brands/satire/craft.md` before the first batch.
 - Brand and domain: journalism under Charlie's own name; pitches go from his personal email
   until he buys a domain in his name. Whodle is the satire account (see decisions).
   hello@whodle.io forwards to his Gmail via Cloudflare Email Routing (free; no Google
@@ -35,6 +37,7 @@ Newest first. Each says why, so it isn't re-argued by accident.
 
 | Date | Decision | Why |
 | --- | --- | --- |
+| 2026-10-20 | Foundations first: no story until the style guide is v1, built from taste, craft and practice, not from three unaided pieces | Charlie is new to writing and wants the foundations in place before iterating on a piece. Enforced in the write hook so it can't drift |
 | 2026-10-20 | Whodle profile picture: `d-newsprint` (options in `brands/satire/logos/`) | Charlie's pick; leans into the fake-news-outlet idea. `b-centre-circle` is the alternative if it underperforms at feed size |
 | 2026-10-20 | The satire account is Whodle, on whodle.io | Charlie owns the domain and the name; the game had a small audience (about 285 finished games when last measured) and no email list, so retiring it costs little. Keeps satire well away from his byline |
 | 2026-10-20 | Angle: English football and the PL seen from Australia, plus FPL. A-League is phase 2 | Charlie writes best about what he cares about; the far-away seat is the distinctive part, not the topic |

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // PreToolUse hook for Write|Edit|MultiEdit. Enforces what CLAUDE.md can only ask for:
 //   1. files go only in known top-level folders
-//   2. nothing is written under stories/<slug>/ until ideas/<slug>.md is greenlit
+//   2. nothing is written under stories/<slug>/ until the style guide is v1 (foundations first)
+//      and ideas/<slug>.md is greenlit
 //   3. only known file names inside a story folder
 //   4. idea, brief and outlet files have valid frontmatter after the change
 // Exit 2 blocks the call and sends stderr back to Claude as the reason. Exit 0 allows.
@@ -9,8 +10,10 @@ import { readFileSync, existsSync } from 'node:fs';
 import { resolve, relative, sep, basename } from 'node:path';
 import {
   ROOT_FILES, TOP_DIRS, STORY_FILES, STORY_DIRS, readFm, validateIdea, validateBrief, validateOutlet,
+  parseFrontmatter, foundationDone,
 } from '../lib/desk.mjs';
 
+const FOUNDATION_MSG = root => `the foundation stage isn't finished: foundation/style-guide.md is \`${readFm(resolve(root, 'foundation', 'style-guide.md'))?.status || 'missing'}\`, and ideas can't be greenlit until it's v1. See foundation/CLAUDE.md.`;
 const block = msg => { process.stderr.write(`Blocked by the Football Desk write gate: ${msg}\n`); process.exit(2); };
 
 let input;
@@ -53,6 +56,7 @@ if (parts[0] === 'stories' && parts.length >= 2 && parts[1] !== 'CLAUDE.md' && !
   }
   const hasBrief = existsSync(resolve(root, 'stories', slug, 'brief.md'));
   if (!hasBrief) {
+    if (!foundationDone(root)) block(FOUNDATION_MSG(root));
     const idea = readFm(resolve(root, 'ideas', `${slug}.md`));
     if (!idea) block(`there's no ideas/${slug}.md. Every story starts as an idea Charlie greenlights.`);
     if (idea.status !== 'greenlit') block(`ideas/${slug}.md is \`${idea.status}\`. Only Charlie greenlights; ask him, then set status: greenlit.`);
@@ -68,8 +72,10 @@ if (parts[0] === 'stories' && parts.length >= 2 && parts[1] !== 'CLAUDE.md' && !
 const file = basename(rel);
 if (parts.length === 2 && file.endsWith('.md') && file !== 'CLAUDE.md' && !file.startsWith('_')) {
   if (parts[0] === 'ideas') {
-    const errs = validateIdea(file, after(), root);
+    const text = after();
+    const errs = validateIdea(file, text, root);
     if (errs.length) block(`${rel}: ${errs.join('; ')}`);
+    if (parseFrontmatter(text)?.status === 'greenlit' && !foundationDone(root)) block(FOUNDATION_MSG(root));
   }
   if (parts[0] === 'outlets') {
     const errs = validateOutlet(file, after());
