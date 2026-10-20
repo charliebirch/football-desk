@@ -14,6 +14,14 @@ two newspaper rules, on paper. Leans into the fake-news-outlet idea.
 | `a-classic` | The game's W mark on full green | Closest to the old Whodle game |
 | `c-sticker` | Green W on a tilted paper sticker | Echoes the game's album-page design; small in feed |
 
+## X header banner
+
+`whodle-x-banner.png` (1500×500, in use from 2026-10-20): newspaper masthead with the red full
+stop, dateline "Vol. I · No. 1 / Football news, mostly made up / Sydney edition · Satire".
+`banner-mock.png` shows how it sits with the profile picture overlapping. Regenerate with
+`python3 banner.py` from this folder (needs Pillow); the dateline text is at the bottom of the
+script. Content sits in the middle band because X crops the top and bottom on phones.
+
 ## Palette (from the Whodle game)
 
 | Name | Hex |
@@ -25,5 +33,5 @@ two newspaper rules, on paper. Leans into the fake-news-outlet idea.
 | Red | `#b23c36` |
 | Rule line | `#ddd2be` |
 
-Display typeface on the game was Barlow Condensed 700 (OFL licence). To make a new size, edit
+Display typeface is Barlow Condensed 700 (OFL licence, copy in `fonts/`). To make a new size, edit
 the SVG and render it to PNG; don't redraw the W by hand.
