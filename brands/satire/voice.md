@@ -13,8 +13,11 @@ football. Deadpan news register, absurd premise, true-to-life detail.
 
 ## What works
 
+The full rules are in `craft.md`. In short:
+
 - The headline does the joke; the first line plays it completely straight.
 - Specific beats general: a real ground, a real fixture, a real kind of fan.
+- Home ground: the Premier League seen from Sydney at 3am.
 
 ## Off limits
 
@@ -24,3 +27,6 @@ football. Deadpan news register, absurd premise, true-to-life detail.
 ## Headlines Charlie loved (the calibration set)
 
 _Grows as he picks._
+
+| Date | Headline | Engine |
+| --- | --- | --- |

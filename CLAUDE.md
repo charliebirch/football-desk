@@ -37,6 +37,11 @@ inventing a folder; the write hook refuses unknown top-level paths anyway.
 
 ## The pipeline
 
+**Foundations first.** Charlie is new to writing. Until `foundation/style-guide.md` reaches
+`status: v1`, the work is the foundation stage in `foundation/CLAUDE.md` (taste, teachers,
+craft, practice), and no idea can be greenlit; the write hook enforces it. Ideas can still be
+captured.
+
 `ideas/` file → Charlie greenlights → `stories/<slug>/` → research → **Charlie drafts** →
 edit pass → fact-check → ready → pitched or published → repurposed.
 
@@ -87,8 +92,8 @@ messages that say why. If you're about to suggest something as new and it isn't,
 
 ## Skills - load the matching one before acting
 
-`capture-idea`, `research-brief`, `edit-pass`, `fact-check`, `pitch`, `repurpose`,
-`study-writer`, `satire`, `quiz`. They live in `.claude/skills/`. Each says what it may create
+Foundation: `taste`, `study-writer`, `practice`. Pipeline: `capture-idea`, `research-brief`,
+`edit-pass`, `fact-check`, `pitch`, `repurpose`. Brands: `satire`, `quiz`. They live in `.claude/skills/`. Each says what it may create
 and where it stops. If a skill and this file disagree, this file wins; fix the skill.
 
 ## Non-negotiables

@@ -3,7 +3,7 @@
 // Runs at session start (via .claude/settings.json) with --brief. Usage: node scripts/board.mjs [--brief]
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { readFm, listMd, listStoryDirs, openItems, daysSince, STALE_DAYS, STORY_STATUS } from './lib/desk.mjs';
+import { readFm, listMd, listStoryDirs, openItems, daysSince, STALE_DAYS, STORY_STATUS, foundationDone, foundationProgress } from './lib/desk.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const brief = process.argv.includes('--brief');
@@ -20,7 +20,13 @@ const stale = [...ideas.filter(i => i.status === 'idea'), ...stories.filter(s =>
   .filter(x => (age(x) ?? 0) >= STALE_DAYS);
 
 const waiting = [];
-for (const i of ideas.filter(i => i.status === 'idea')) waiting.push(`greenlight, park or kill: ${i.title} (${i.file})`);
+const fp = foundationProgress(root);
+if (!foundationDone(root)) {
+  if (fp.taste < 10) waiting.push(`foundation: log taste pieces (${fp.taste}/10-15)`);
+  else if (fp.samples < 3) waiting.push(`foundation: practice drills until 3 voice samples (${fp.samples}/3)`);
+  else waiting.push('foundation: approve style guide v1 to unlock stories');
+}
+for (const i of ideas.filter(i => i.status === 'idea' && foundationDone(root))) waiting.push(`greenlight, park or kill: ${i.title} (${i.file})`);
 for (const s of stories) {
   if (s.status === 'researching') waiting.push(`research done, Charlie drafts: ${s.title}`);
   if (s.status === 'checking' && (s.open ?? 1) > 0) waiting.push(`fix ${s.open ?? '?'} fact-check item(s): ${s.title}`);
@@ -29,6 +35,7 @@ for (const s of stories) {
 
 const lines = [];
 lines.push(`Football Desk board, ${new Date().toISOString().slice(0, 10)}`);
+if (!foundationDone(root)) lines.push(`Foundation stage (stories locked until style guide v1): taste ${fp.taste}/10-15, writer profiles ${fp.writers}, craft techniques ${fp.craft}, practice drills ${fp.practice}, voice samples ${fp.samples}/3, style guide ${fp.guide}`);
 lines.push(`Ideas: ${ideas.filter(i => i.status === 'idea').length} open, ${ideas.filter(i => i.status === 'parked').length} parked, ${ideas.filter(i => i.status === 'killed').length} killed`);
 const byStage = STORY_STATUS.map(st => [st, stories.filter(s => s.status === st)]).filter(([, l]) => l.length);
 lines.push(`Stories: ${stories.length ? byStage.map(([st, l]) => `${l.length} ${st}`).join(', ') : 'none yet'}`);

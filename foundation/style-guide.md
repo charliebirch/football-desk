@@ -6,9 +6,9 @@ updated: 2026-10-20
 
 # Charlie's style guide
 
-**Template.** Fill this from `voice-samples/` once there are three pieces, then from techniques
-Charlie picks in a comparison. Until then, `edit-pass` checks drafts against `red-lines.md`
-and the house basics below only.
+**Template.** This is the last step of the foundation stage (see `foundation/CLAUDE.md`): fill
+it from three pieces in `voice-samples/` plus the techniques in `craft.md`. When Charlie
+approves it, set `status: v1`; that unlocks greenlighting stories.
 
 ## House basics (already decided)
 

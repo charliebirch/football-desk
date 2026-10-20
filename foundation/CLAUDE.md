@@ -1,32 +1,45 @@
 # foundation/ - rules of engagement
 
-The files every other folder is checked against. Small, stable, Charlie's. If the factory
-produces something off-voice, the fix usually belongs here, not in the piece.
+The files every other folder is checked against. Charlie is new to writing, so this is built
+**before** any story: taste first, then teachers, then craft, then practice, then a first
+style guide. **No idea can be greenlit until `style-guide.md` says `status: v1`** - the write
+hook enforces it.
 
-| File | What it is | Changes when |
+| Path | What it is | Changes when |
 | --- | --- | --- |
-| `style-guide.md` | How Charlie writes: ledes, structure, rhythm, humour, data, sign-offs | After a monthly comparison, with Charlie choosing each change |
-| `red-lines.md` | What never happens, whatever the deadline | Only on Charlie's explicit say-so |
-| `pillars.md` | The four content pillars and what belongs in each | Rarely; a new pillar is a strategy decision for `STATUS.md` |
-| `writers/<name>.md` | Craft profile of one writer Charlie studies | When `study-writer` runs |
-| `voice-samples/` | Charlie's own published or finished pieces, as he wrote them | When he finishes a piece he's happy with |
+| `taste/<slug>.md` | One piece Charlie loves (or hates), with his reaction in his words | `taste` skill, whenever he finds one |
+| `writers/<name>.md` | Craft profile of one writer, built from several pieces | `study-writer` |
+| `craft.md` | The techniques Charlie has chosen to learn, in his own terms, from craft books and profiles | After each craft book or profile, with Charlie choosing |
+| `practice/<date>-<drill>.md` | Short drills and the feedback on them | `practice` skill |
+| `voice-samples/` | Finished pieces Charlie is happy to call his voice | When a practice piece or story is good enough |
+| `style-guide.md` | How Charlie writes. `template` until v1 | Built at the end of the foundation stage, then monthly |
+| `red-lines.md` | What never happens | Only on Charlie's explicit say-so |
+| `pillars.md` | The four content pillars | Rarely; a strategy decision for `STATUS.md` |
 
-## How the foundation gets built
+## The foundation stage, in order
 
-1. Charlie writes three pieces unaided and drops them in `voice-samples/`. Until then
-   `style-guide.md` stays a template; don't fill it from other writers or from guesses.
-2. `study-writer` builds a profile per writer in `writers/`.
-3. Compare: set Charlie's samples beside the profiles, list where he differs and which
-   techniques could fit. Present them; **Charlie picks**. Only picked techniques go into
-   `style-guide.md`, each credited to the writer it came from.
-4. Monthly: add his newest pieces to `voice-samples/` and rerun step 3.
+1. **Taste.** Charlie collects 10-15 pieces he loves and two or three he dislikes. For each,
+   `taste` gets his reaction first, then names the techniques behind it. His reaction is the
+   valuable part; don't lead it.
+2. **Teachers.** The writers who keep showing up in `taste/` get a profile in `writers/`.
+3. **Craft.** Read craft books (see `library/reading-list.md`); notes go in `library/notes/`,
+   and the techniques Charlie picks go into `craft.md`.
+4. **Practice.** Short drills, 200-500 words, not stories: rewrite a match report three ways,
+   open the same piece five different ways, 300 words on one moment. `practice` sets them and
+   gives feedback against `craft.md` and `taste/`.
+5. **Style guide v1.** When three practice pieces sit in `voice-samples/`, draft `style-guide.md`
+   from them plus the techniques in `craft.md`. Charlie approves it; set `status: v1`. Stories
+   unlock.
+6. **Monthly after that:** add new pieces to `voice-samples/` and revise the guide.
 
 ## Rules
 
-- The style guide describes Charlie, not an average of his heroes. A technique goes in only
-  after he's chosen it.
-- Profiles describe technique. They don't store copied text beyond one short quote per piece,
-  attributed.
+- **Charlie's taste leads.** Record his words before your analysis, and never tell him what he
+  should like.
+- **Describe technique, don't copy text.** One short attributed quote per piece at most. Books
+  and articles stay where they are; notes point to them.
+- The style guide describes Charlie, not an average of his heroes. Only techniques he chose go
+  in, each credited.
+- Practice pieces are Charlie's writing. Feedback points at what to change; it doesn't rewrite
+  his paragraphs for him.
 - Never edit `red-lines.md` on your own initiative. Propose the change in a message.
-- Keep each file short enough to load into a skill without crowding it out: style guide
-  under ~150 lines.
