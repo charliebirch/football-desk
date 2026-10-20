@@ -18,10 +18,11 @@ ideas tab was the seed.
 
 ## Open threads
 
-- Foundation step 1: Charlie collects 10-15 pieces he loves (and a few he dislikes) for `taste`.
+- Foundation step 1: Charlie reads `foundation/taste/_queue.md` (15 pieces, built 20 Oct) and
+  reacts to each; `taste` logs them. Target 10-15 logged.
 - Craft books: get the four in `library/reading-list.md` (craft section) into `library/books/`.
-- Satire: craft guide done (`brands/satire/craft.md`, researched 20 Oct). Next: first batch,
-  then Charlie's picks start the calibration set in `voice.md`.
+- Satire: craft guide done (`brands/satire/craft.md`). **Parked by Charlie on 20 Oct** until
+  the writing foundations are in place; X account exists, nothing posted.
 - Brand and domain: journalism under Charlie's own name; pitches go from his personal email
   until he buys a domain in his name. Whodle is the satire account (see decisions).
   hello@whodle.io forwards to his Gmail via Cloudflare Email Routing (free; no Google
