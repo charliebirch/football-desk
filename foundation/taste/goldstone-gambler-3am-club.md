@@ -22,6 +22,10 @@ added: 2026-10-21
 - Cheap comments like 'assuming VAR has not spent six minutes examining somebody's sleeve' as
   just one example, and the structure and layout feel rookie and tbh could have been written by
   AI
+- On 21 Oct, asked why the VAR line was cheap: "It just felt like a cheap analogy, especially
+  becuase the rest of the piece felt unprofessional. I think if a similar comment was made in
+  anothe rof the pieces it would have landed, but its the context of the piece and not overdoing
+  it, tell the story dont just use analogies and jokes over and over"
 
 ## What's going on
 

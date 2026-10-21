@@ -19,9 +19,11 @@ ideas tab was the seed.
 ## Open threads
 
 - Foundation step 1 (taste): 14 pieces logged on 21 Oct from Charlie's Reading notes tab.
-  Synthesis drafted in `foundation/taste/_profile.md`; **waiting on Charlie's answers to its
-  questions** and his pick of craft candidates (C1-C13) for `foundation/craft.md`. #5
-  (Delaney) unread: the notes first logged as #5 were for #4 (Wilson), corrected 21 Oct.
+  Synthesis drafted in `foundation/taste/_profile.md`; Charlie answered its questions on 21
+  Oct (lane confirmed as a start, column first, ~700-900 words). **Still waiting on** his craft
+  picks (C1-C14, a checklist in the doc's Reading notes tab) and his reactions to #16/#17
+  (first person vs third). Then: profile to v1, fill `foundation/craft.md`, first column drill.
+  #5 (Delaney) unread: the notes first logged as #5 were for #4 (Wilson), corrected 21 Oct.
 - Charlie's process ideas (21 Oct, not started): a football database that updates live as a
   foundation for the writing; a weekly editor's-notes scan for published pieces that need
   updating.

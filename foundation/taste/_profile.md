@@ -28,6 +28,7 @@ Strongest first, by how many pieces it came up in.
 | 9 | **Medium length.** About 900 words feels right; long reads and big features are "too long for the kinds of articles I want to write initially" | #1, #10 vs #3, #13 |
 | 10 | **Accessible language.** "I want to use accessible language" | #4 |
 | 11 | **Interactive and multimedia extras.** Embedded clips and posts, a score picker, charts | #3, #6, #13 |
+| 12 | **Explaining simply, then the consequences.** Complex stories made simple, then what they mean "in the grand scheme of the sport" | #0 (Business of Sport) |
 
 ## 2. Charlie's vocabulary
 
@@ -43,6 +44,8 @@ The words the style guide and future feedback should use:
 
 - Humour that announces itself: "too on the nose with trying to be funny and clever. Too many
   analogies or catchphrases" (#7)
+- Jokes leaned on instead of the story: "tell the story dont just use analogies and jokes over
+  and over" (#14, Q3). A line that would land in a strong piece reads as cheap in a weak one
 - Words readers may not know (#4)
 - Misleading or clickbait headlines (#1)
 - Play-by-play match write-ups (#8)
@@ -119,6 +122,7 @@ Nothing goes into `foundation/craft.md` until Charlie chooses it.
 | C11 | **Plain words** | #4 |
 | C12 | **Visible sections** and something to look at between them | #12, #13 |
 | C13 | **Front-load, then a cliffhanger** (for Substack) | #6 |
+| C14 | **Simple, then the consequence:** explain the complicated thing simply, then what it means for the sport | #0 (Business of Sport) |
 
 ## 9. Drills that follow
 
@@ -135,14 +139,25 @@ picked his techniques.
 5. **One moment, one image:** 300 words on a single moment, exactly one comparison (C6).
 6. **Plain words:** rewrite a dense paragraph from #4 so anyone could follow it (C11).
 
-## 10. Questions for Charlie
+## 10. Questions for Charlie, and his answers (21 Oct)
 
-1. Is "data-backed, plain-spoken, a bit of wit, from the far-away seat" your lane?
-2. Report or column: which do you want to practise first?
-3. In #14, the VAR-sleeve line is specific to the late-night experience. What made it cheap for
-   you: that everyone makes VAR jokes, or that it was forced in?
-4. Is about 900 words (#10) the target, or shorter?
-5. Your angle probably needs writing as "I", and none of your favourites do. Comfortable with
-   that, or want a first-person writer in the next reading round?
-6. Which craft candidates (C1-C13) go into your craft list?
-7. Still open from Business of Sport: what makes their breakdown work for you?
+1. **Lane:** "Sounds about right, may not encompass everything but I agree its a good start."
+   Working lane confirmed as a starting point: data-backed, plain-spoken, a bit of wit, from the
+   far-away seat.
+2. **Report or column first:** "Column I think is an easier start." Claude explained the
+   difference in chat; drills start with the column.
+3. **Why the VAR line was cheap (#14):** "It just felt like a cheap analogy, especially because
+   the rest of the piece felt unprofessional. I think if a similar comment was made in another
+   of the pieces it would have landed, but its the context of the piece and not overdoing it,
+   tell the story dont just use analogies and jokes over and over." So a joke is judged by the
+   piece around it: it has to be earned by a piece that's otherwise solid, and used sparingly.
+4. **Length:** Charlie asked for Claude's recommendation. Recommended: 700-900 words for real
+   pieces, 1,000 as a ceiling; drills stay at 200-500. To confirm after the first drills.
+5. **First person:** "We should compare the two." Added #16 (first person) and #17 (third
+   person, his angle) to the queue.
+6. **Craft picks:** as a checklist in the doc's Reading notes tab ("Craft picks"); C14 added
+   from his Business of Sport answer. Waiting for his ticks.
+7. **Business of Sport:** answered; see `business-of-sport-the-breakdown-e40.md`.
+
+**Still open:** his craft picks (6) and his reactions to #16 and #17 (5). The profile moves from
+draft to v1 once both are in.

@@ -45,6 +45,16 @@ does differently. Also directly useful for the "Are City fans in denial?" idea.
 | 14 ✓ | [Premier League From Australia: Life in the 3am Club](https://www.wearebrighton.com/newsopinion/following-the-premier-league-from-australia-life-in-the-3am-club/) | The Goldstone Gambler, We Are Brighton | 22 Sep 2026 | Fan-site blog | Your topic in about a minute's read, with casino sponsorship woven in. What would you do better? |
 | 15 ✓ | [How English football is seen in Australia](https://sportingintelligence832.substack.com/p/premier-league-the-global-game-how-english-football-is-seen-in-australia271001) | Nick Harris, Sporting Intelligence | 27 Oct 2011 | Interview-led series piece | An old take on your angle; what's changed since, and what's still true |
 
+## 4. Writing as "I": compare the two
+
+Added 21 Oct for profile question 5. Read both and compare: which would you rather read, and
+which could only you have written? Claude can't open MSN, so #16 was picked by writer and topic.
+
+| # | Piece | Writer, outlet | Date | Form | Look at |
+| --- | --- | --- | --- | --- | --- |
+| 16 | [Armchair supporter: Do I still love going to football or just the idea of it?](https://www.msn.com/en-gb/sport/american_football/armchair-supporter-do-i-still-love-going-to-football-or-just-the-idea-of-it/ar-AA2b2EN9) | Max Rushden, The Guardian | 27 Aug 2026 | First-person column | Whether "I" feels personal or self-indulgent |
+| 17 | [What is it like to follow European football in Australia?](https://www.euronews.com/2023/10/05/what-is-it-like-to-follow-european-football-in-australia) | Euronews | 5 Oct 2023 | Third-person feature with video | Your angle told from outside, through other fans' quotes |
+
 ## Gaps to fill
 
 - **An interview or profile.** Pick a recent one from The Athletic you enjoyed and add it.
