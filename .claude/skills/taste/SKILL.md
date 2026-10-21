@@ -29,5 +29,6 @@ one question that sharpens his taste, for Charlie to answer or skip.
 4. `## Steal-able`: one or two things he could try in a practice drill.
 5. If the piece came from `foundation/taste/_queue.md`, add ✓ after its number there.
 6. If this writer now has three or more taste pieces, suggest a `study-writer` profile.
+7. If you read or wrote the doc, refresh its copy in `playbook/` (see `playbook/README.md`) in the same commit.
 
 Never tell Charlie what he should like. A dislike is as useful as a love.

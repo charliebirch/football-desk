@@ -36,3 +36,10 @@ outside the desk folders, story folders for ideas you haven't greenlit, and idea
 outlet files with broken frontmatter. Needs Node (any recent version; no packages).
 
 See `CLAUDE.md` for how Claude works here and `STATUS.md` for where things stand.
+
+## Moving it somewhere else
+
+Clone the repo and open it in any tool that reads `CLAUDE.md` files. Read `STATUS.md` first: it
+has the state, the roadmap, the open threads, and every decision with its reason. Its "What
+lives outside this repo" table lists the few things git doesn't hold. The playbook doc's content
+is copied in `playbook/`.

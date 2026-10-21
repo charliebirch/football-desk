@@ -26,6 +26,7 @@ an existing idea's `## Notes`. **Stops at:** a list of what was captured, for Ch
    processed bullet (insert after his words; never reword them) and add the idea's title to
    "Already in the desk".
 6. Run `node scripts/check.mjs`.
+   If you read or wrote the doc, refresh its copy in `playbook/` (see `playbook/README.md`) in the same commit.
 7. Reply with one line per captured idea (title, pillar), and ask which, if any, to greenlight.
    Stop there.
 
