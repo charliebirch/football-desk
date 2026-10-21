@@ -1,9 +1,10 @@
 # Taste reading queue
 
 Pieces for Charlie to read and react to, picked for range: different writers, outlets and
-forms, plus a few on his own angle. Read one, then tell Claude what you thought (a few lines
-is plenty, e.g. "taste #3: loved the opening, lost me halfway"); `taste` logs it in this
-folder and adds ✓ to its number here.
+forms, plus a few on his own angle. Read one, then type your reaction under it in the
+"Reading notes" tab of the playbook doc
+(https://claude.ai/artifact/1i79F7Cw76QG8ySqdU8F3z), and tell Claude "read my notes";
+`taste` logs it in this folder and adds ✓ to its number here. Reacting in chat works too.
 
 Built 20 October 2026. Guardian pieces link to free syndicated copies (MSN, Yahoo, AOL); the
 originals are on theguardian.com. Athletic links need Charlie's subscription. Claude can't
