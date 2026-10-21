@@ -9,8 +9,8 @@ argument-hint: [url or title]
 **Where Charlie's reactions come from.** He types them in the "Reading notes" tab of the
 playbook doc (doc `05bd47a0-3c1d-4781-9726-ab03ceb4ff6d`, tab `237aa61f-e27b`, body
 `01488f5c-6195`), under each piece's **Your thoughts:** line. When he says "read my notes",
-read that tab with the Claude Docs tools, log every piece with new thoughts, then reply in the
-doc as a comment under each one you logged. Never delete or rewrite his notes in the doc. If he
+read that tab with the Claude Docs tools, log every piece with new thoughts, then leave one comment at
+the top of the tab saying what was logged and where. Never delete or rewrite his notes in the doc. If he
 reacts in chat instead, that works too.
 
 **May create:** `foundation/taste/<writer-slug>-<short-title>.md`. **Stops at:** the file and
@@ -29,5 +29,6 @@ one question that sharpens his taste, for Charlie to answer or skip.
 4. `## Steal-able`: one or two things he could try in a practice drill.
 5. If the piece came from `foundation/taste/_queue.md`, add ✓ after its number there.
 6. If this writer now has three or more taste pieces, suggest a `study-writer` profile.
+7. If you read or wrote the doc, refresh its copy in `playbook/` (see `playbook/README.md`) in the same commit.
 
 Never tell Charlie what he should like. A dislike is as useful as a love.

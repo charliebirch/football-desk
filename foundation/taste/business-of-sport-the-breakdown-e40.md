@@ -12,7 +12,13 @@ added: 2026-10-20
 
 Really likes how they break down the football news.
 
-_Open: which part of how they break it down? (See the question at the bottom.)_
+On 21 Oct, asked what makes it work:
+
+- So both Charlies are highly knowledgeable, explain complex stories really simply, and explain
+  the consequences of what has happened in the grand scheme of the sport. There is surely a lot
+  more including the production value, but that is my first stab at articulating what works
+  for it.
+- Also they have deep industry knowledge from working in it for so long, something we dont have
 
 ## What's going on
 
@@ -34,7 +40,11 @@ answer.
   behind it, what it means for fans.
 - Lead each item with the business consequence rather than the result.
 
-## Question for Charlie
+## What his answer adds
 
-What makes their breakdown work for you: the choice of stories, the business angle, the
-back-and-forth between the two hosts, or the pace?
+- The pattern is **simple explanation, then consequence**: what happened, said plainly, then
+  what it means for the sport. Now craft candidate C14 in `_profile.md`.
+- The gap he names, **insider knowledge**, is the same one as #3 (the Athletic's access). His
+  route round it so far: aggregate what insiders have said on record, cited, and add the
+  explanation and consequences. Their knowledge comes from careers in the business; his has to
+  come from research and data, which fits the lane.

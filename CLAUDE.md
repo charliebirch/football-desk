@@ -2,12 +2,14 @@
 
 Charlie's journalism factory: English football seen from Australia, plus FPL. A git repo of
 markdown, worked in with Claude Code (Conductor, the desktop app, or a cloud session from the
-phone). No app, no build step. Strategy lives in the playbook doc linked from `STATUS.md`;
-this repo is where the work happens.
+phone). No app, no build step. Charlie types notes and ideas in the playbook doc (a copy is in
+`playbook/`); this repo is where the work happens and is the record. Everything needed to pick
+the project up is here, apart from what `STATUS.md` lists under "What lives outside this repo".
 
-**Talking to Charlie:** `~/.claude/CLAUDE.md` holds his writing rule and loads in every session.
-Follow it in replies, not just in files. Files here are dense reference; messages to him are
-not. Lead with what he needs to decide or do, then stop.
+**Talking to Charlie:** `~/.claude/CLAUDE.md` holds his writing rule and loads in every session
+on his Mac. In a cloud session or another tool it may not be loaded; the short version is the
+rest of this paragraph. Follow it in replies, not just in files. Files here are dense
+reference; messages to him are not. Lead with what he needs to decide or do, then stop.
 
 **What success is:** published pieces Charlie is proud to put his name to, a growing list of
 readers, and paid commissions. Not volume. A week with one strong piece beats a week with five
@@ -28,6 +30,7 @@ file there; read it before writing in that folder if it hasn't loaded.
 | `stories/<slug>/` | Everything for one greenlit piece, from brief to published URL | Claude and Charlie, only once greenlit |
 | `outlets/` | One file per publication: editors, rates, what they buy, pitch history | Claude researches; Charlie confirms |
 | `library/` | Book notes and research notes. `library/books/` is never committed | Claude writes notes; books are Charlie's files |
+| `playbook/` | A markdown copy of the playbook doc's tabs. Never hand-edited; refreshed from the doc | Claude, by exporting the doc |
 | `data/` | Data pulls with source and date, plus the scripts that fetch them | Claude |
 | `brands/` | Satire and quiz output, kept apart from his byline | Claude drafts; Charlie picks |
 | `scripts/` | `board.mjs` (pipeline view), `check.mjs` (lint), hooks | Claude, carefully |

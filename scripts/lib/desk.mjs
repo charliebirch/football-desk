@@ -5,7 +5,7 @@ import { join, basename } from 'node:path';
 
 export const ROOT_FILES = ['CLAUDE.md', 'CLAUDE.local.md', 'STATUS.md', 'README.md', '.gitignore'];
 export const TOP_DIRS = ['.claude', 'foundation', 'inbox', 'ideas', 'stories', 'outlets',
-  'library', 'data', 'brands', 'scripts'];
+  'library', 'data', 'brands', 'playbook', 'scripts'];
 
 export const IDEA_STATUS = ['idea', 'greenlit', 'parked', 'killed'];
 export const STORY_STATUS = ['greenlit', 'researching', 'drafting', 'checking', 'ready',
