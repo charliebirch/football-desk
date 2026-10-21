@@ -1,7 +1,8 @@
 # inbox/ - rules of engagement
 
 The one place where mess is allowed. Charlie dumps anything here, in any form: a thought
-mid-podcast, a link, a half-sentence, a voice-memo transcript.
+mid-podcast, a link, a half-sentence, a voice-memo transcript. From his phone he types ideas
+into the **Ideas inbox** tab of the playbook doc instead (see `capture-idea`); both count.
 
 - **Append, never tidy.** Add new entries to the bottom of `dump.md` with a date line. Don't
   rewrite or reorder what's there.

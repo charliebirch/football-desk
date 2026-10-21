@@ -29,6 +29,10 @@ voices to be fair rather than a pile-on.
 
 ## Notes
 
+- 2026-10-20: the Premier League found City guilty of financial breaches in late September
+  2026; sanctions still to come (per Crafton in The Athletic, 30 Sep, and Delaney in The
+  Independent, 12 Oct, both in `foundation/taste/_queue.md`). Verify before writing.
+
 Needs a careful fairness and legal read: claims about named people's motives or conduct (see
 `foundation/red-lines.md`, line 7).
 
