@@ -1,7 +1,7 @@
 ---
 type: taste-profile
 status: draft
-built_from: 13 queued pieces with notes (#1-3, #5-15) plus Business of Sport E40
+built_from: 14 queued pieces with notes (#1-4, #6-15) plus Business of Sport E40
 updated: 2026-10-21
 ---
 
@@ -20,13 +20,13 @@ Strongest first, by how many pieces it came up in.
 | 1 | **Facts and data carrying the argument.** Tables, graphs, stats placed to prove a point. "I'm a big data guy" | #1, #6, #10, #11, #12 |
 | 2 | **Presentation and readability.** The page itself: images, dividers, graphics, tidy layout. Ugly or broken pages lose him | #2, #13, #14, #15 (+ #6, #11, #12 graphics) |
 | 3 | **Subtle cleverness, never performance.** One sharp image, a bracketed aside, a delayed reveal. Not a stream of jokes | #9, #11, #12 vs #7, #14 |
-| 4 | **Strong openings and endings.** He comments on both, often | #5, #9, #11, #13 |
+| 4 | **Strong openings and endings.** He comments on both, often | #4, #9, #11, #13 |
 | 5 | **A clear contract with the reader.** Neutral report or strong opinion are both fine, if the headline sets the feel and the piece keeps to it | #1, #2, #13 |
 | 6 | **Meaning over match.** Trends, context and "so what", not play-by-play | #8, #11 |
 | 7 | **Educating and making you question.** Taking a half-known topic and explaining it with facts | #1, #9 |
 | 8 | **Human feeling.** Empathy, emotion, "the feeling I get from this writer" | #9, #14 |
 | 9 | **Medium length.** About 900 words feels right; long reads and big features are "too long for the kinds of articles I want to write initially" | #1, #10 vs #3, #13 |
-| 10 | **Accessible language.** "I want to use accessible language" | #5 |
+| 10 | **Accessible language.** "I want to use accessible language" | #4 |
 | 11 | **Interactive and multimedia extras.** Embedded clips and posts, a score picker, charts | #3, #6, #13 |
 
 ## 2. Charlie's vocabulary
@@ -43,7 +43,7 @@ The words the style guide and future feedback should use:
 
 - Humour that announces itself: "too on the nose with trying to be funny and clever. Too many
   analogies or catchphrases" (#7)
-- Words readers may not know (#5)
+- Words readers may not know (#4)
 - Misleading or clickbait headlines (#1)
 - Play-by-play match write-ups (#8)
 - Stock lines that could be in anyone's piece; "could have been written by AI" (#14)
@@ -57,7 +57,7 @@ The words the style guide and future feedback should use:
 | --- | --- | --- | --- |
 | **Jonathan Liew** (Guardian) | #2 love, #9 love, #8 mixed | The column voice he likes most: strong opinion, subtle images, empathy, questioning the system | First `study-writer` profile |
 | **Opta Analyst** (Hopkins, Tweedale) | #11 love, #12 love | The data craft: trend-finding, layering, reveals, light wit, graphics | Second profile, as a house style |
-| **Jonathan Wilson** (Guardian) | #10 love, #4 unread | Analysis built on a named idea, claim-then-stat, the right length | Read #4, then decide |
+| **Jonathan Wilson** (Guardian) | #10 love, #4 mixed | Analysis built on a named idea, claim-then-stat, the right length, endings that close the loop. Marked down for rare words | One more Wilson piece, then a profile |
 | **Adam Crafton / The Athletic** | #1 love, #3 mixed, #13 love | Model for neutral reporting and presentation | Hard to profile: Claude can't read The Athletic |
 | **The Swiss Ramble** | #6 love | Substack mechanics: front-loading, the paywall cliffhanger | Use when setting up the newsletter |
 
@@ -93,12 +93,11 @@ Recorded here; nothing is filed as an idea or a build without his yes.
 
 ## 7. Blind spots: what the notes don't cover yet
 
-- **Sentence rhythm.** Only "not too verbose" so far. Delaney (#5) alternates very short and
-  long sentences, and that's part of why the opening grips. Worth looking for next round.
+- **Sentence rhythm.** Only "not too verbose" so far. Worth looking for next round.
 - **First person.** None of the pieces he loved is written as "I". His angle (the far-away fan)
   probably needs it. No model yet.
 - **How quotes are used.** Noticed in #9's opening, but not yet as a technique.
-- **Coverage gaps:** #4 not read; no interview or profile; no classic; no newsletter-native
+- **Coverage gaps:** #5 (Delaney) skipped; no interview or profile; no classic; no newsletter-native
   writer apart from the Swiss Ramble.
 
 ## 8. Craft candidates: Charlie picks
@@ -113,11 +112,11 @@ Nothing goes into `foundation/craft.md` until Charlie chooses it.
 | C4 | **Zoom out in layers:** this week, this season, this era, all time | #11, #9 |
 | C5 | **The delayed reveal:** introduce the fact, hold back who owns it | #11 |
 | C6 | **One image or aside per piece:** wit in small doses | #9, #12 vs #7 |
-| C7 | **Start in the middle of the moment** | #5, #9 |
-| C8 | **End by widening the frame** with one sharp line | #5, #11 |
+| C7 | **A gripping opening:** start in the middle of the moment, or on the stock phrase that doesn't fit this time | #4, #9 |
+| C8 | **End by widening the frame** with one sharp line, returning to the opening's idea | #4, #11 |
 | C9 | **Name the idea** with a short label | #10 |
 | C10 | **Meaning over match:** the "so what" first | #8, #11 |
-| C11 | **Plain words** | #5 |
+| C11 | **Plain words** | #4 |
 | C12 | **Visible sections** and something to look at between them | #12, #13 |
 | C13 | **Front-load, then a cliffhanger** (for Substack) | #6 |
 
@@ -134,7 +133,7 @@ picked his techniques.
 4. **Three knee-jerks** from this weekend: verdict heading, data, caveat, one bracketed aside
    (C6, C12).
 5. **One moment, one image:** 300 words on a single moment, exactly one comparison (C6).
-6. **Plain words:** rewrite a dense paragraph from #5 so anyone could follow it (C11).
+6. **Plain words:** rewrite a dense paragraph from #4 so anyone could follow it (C11).
 
 ## 10. Questions for Charlie
 

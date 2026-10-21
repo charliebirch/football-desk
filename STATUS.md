@@ -20,7 +20,8 @@ ideas tab was the seed.
 
 - Foundation step 1 (taste): 14 pieces logged on 21 Oct from Charlie's Reading notes tab.
   Synthesis drafted in `foundation/taste/_profile.md`; **waiting on Charlie's answers to its
-  questions** and his pick of craft candidates (C1-C13) for `foundation/craft.md`. #4 unread.
+  questions** and his pick of craft candidates (C1-C13) for `foundation/craft.md`. #5
+  (Delaney) unread: the notes first logged as #5 were for #4 (Wilson), corrected 21 Oct.
 - Charlie's process ideas (21 Oct, not started): a football database that updates live as a
   foundation for the writing; a weekly editor's-notes scan for published pieces that need
   updating.
