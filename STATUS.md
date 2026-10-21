@@ -18,8 +18,12 @@ ideas tab was the seed.
 
 ## Open threads
 
-- Foundation step 1: Charlie reads `foundation/taste/_queue.md` (15 pieces, built 20 Oct) and
-  reacts to each; `taste` logs them. Target 10-15 logged.
+- Foundation step 1 (taste): 14 pieces logged on 21 Oct from Charlie's Reading notes tab.
+  Synthesis drafted in `foundation/taste/_profile.md`; **waiting on Charlie's answers to its
+  questions** and his pick of craft candidates (C1-C13) for `foundation/craft.md`. #4 unread.
+- Charlie's process ideas (21 Oct, not started): a football database that updates live as a
+  foundation for the writing; a weekly editor's-notes scan for published pieces that need
+  updating.
 - Craft books: get the four in `library/reading-list.md` (craft section) into `library/books/`.
 - Satire: craft guide done (`brands/satire/craft.md`). **Parked by Charlie on 20 Oct** until
   the writing foundations are in place; X account exists, nothing posted.
